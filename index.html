@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title>Campus Virtual Universidad de Cordoba</title>
+</head>
+
+<body>
+    <main>
+        <div id="login_container">
+
+            <div id="logo_container">
+                <img id="logo_login" src="images/unicordoba_logo1.png" alt="logo_unicordoba">
+            </div>
+
+            <div id="form_container">
+                <form id="form" action="php/login.php" method="post">
+
+                    <div class="input_container">
+                        <div class="icon_username"></div>
+                        <input required class="input_username" type="text" placeholder="Nombre de usuario" name="user" id="">
+                    </div>
+
+                    <div class="input_container">
+                        <div class="icon_password"></div>
+                        <input required class="input_password" type="password" placeholder="Contraseña" name="password" id="">
+                    </div>
+
+                    <span class="user_checkbox"><input type="checkbox" name="" id=""> Recordar nombre de usuario</span>
+                    <input type="submit" class="acceder_button" value="Acceder"></input>
+                </form>
+
+
+                <div id="info_container">
+                    <span class="forgot_password"><a class="link" href="">¿Olvidó su nombre de usuario o
+                            contraseña?</a></span>
+                    <div class="info_cookies"><a class="link" href="">Las 'Cookies' deben estar habilitadas en su
+                            navegador </a><span class="question"></span></div>
+                </div>
+
+                <div id="info_container">
+                    <span class="forgot_password"><a class="link" href="">Soporte - Centro de Innovación en TIC para
+                            Apoyo a la Academia</a></span>
+                    <div class="info_label">
+                        <div class="icon_language"></div>English (en) <div class="icon_language"></div>Español -
+                        Colombia (es_co)
+                    </div>
+                </div>
+
+                <div class="social_media_container">
+                    <div class="social_media"></div>
+                    <div class="social_media"></div>
+                    <div class="social_media"></div>
+                    <div class="social_media"></div>
+                </div>
+            </div>
+            <footer class="footer">
+                <p>Usted no se ha identificado. </p>
+                <p>Descarga la app para dispositivos móviles</p>
+            </footer>
+        </div>
+        <div id="background_">
+
+        </div>
+    </main>
+</body>
+
+</html>
